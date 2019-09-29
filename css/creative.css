@@ -9624,7 +9624,7 @@ hr.light {
 @media (min-width: 992px) {
   #mainNav {
     box-shadow: none;
-    background-color: transparent;
+    background-color: #132F49;
   }
   #mainNav .navbar-brand {
     color: rgba(255, 255, 255, 0.7);
