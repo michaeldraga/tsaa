@@ -23,6 +23,35 @@
   <!-- Theme CSS - Includes Bootstrap -->
   <link href="css/creative.css" rel="stylesheet">
 
+  <style>
+      .menu-symbol {
+          display: inline-block;
+          cursor: pointer;
+      }
+
+      .bar1, .bar2, .bar3 {
+          width: 35px;
+          height: 5px;
+          background: #c2c2c2;
+          margin: 6px 0;
+          transition: .4s;
+      }
+
+      .change .bar1 {
+          -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+          transform: rotate(-45deg) translate(-9px, 6px);
+      }
+
+      .change .bar2 {
+          opacity: 0;
+      }
+
+      .change .bar3 {
+        -webkit-transform: rotate(45deg) translate(-8px, -8px);
+        transform: rotate(45deg) translate(-8px, -8px);
+      }
+  </style>
+
 </head>
 
 <body id="page-top">
@@ -32,7 +61,12 @@
     <div class="container">
       <a class="navbar-brand js-scroll-trigger" href="#page-top">TSA-Allround</a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+        <!-- <span class="navbar-toggler-icon"></span> -->
+        <div class="menu-symbol" onclick="this.classList.toggle('change')">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+        </div>
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto my-2 my-lg-0">
@@ -40,10 +74,10 @@
             <a class="nav-link js-scroll-trigger" href="#about">Über uns</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#services">Unsere Teams</a>
+            <a class="nav-link js-scroll-trigger" href="#portfolio">Unsere Teams</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#portfolio">Showanfrage senden</a>
+            <a class="nav-link js-scroll-trigger" href="#shows">Showanfrage senden</a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#contact">Kontakt</a>
@@ -208,7 +242,7 @@
   </section>
 
   <!-- Call to Action Section -->
-  <section class="page-section bg-dark text-white">
+  <section class="page-section bg-dark text-white" id="shows">
     <div class="container text-center">
       <h2 class="mb-4">Buchen Sie jetzt einen Showauftritt!</h2>
       <a class="btn btn-light btn-xl" href="https://startbootstrap.com/themes/creative/">Kontaktieren Sie uns!</a>
