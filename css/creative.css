@@ -9741,3 +9741,7 @@ header.masthead h1 {
 a {
     color: #fff;
 }
+
+button {
+    outline: none !important;
+}

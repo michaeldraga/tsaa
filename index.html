@@ -25,15 +25,39 @@
 
   <style>
       .menu-symbol {
-          display: inline-block;
-          cursor: pointer;
+          margin: 1em;
+          width: 40px;
+      }
+
+      .menu-symbol::after,
+      .menu-symbol::before,
+      .menu-symbol div {
+          background-color: #ffffff;
+          border-radius: 3px;
+          content:'';
+          display: block;
+          height: 5px;
+          margin: 7px 0;
+          transition: all .2s ease-in-out;
+      }
+
+      .change .menu-symbol::before {
+          transform: translateY(12px) rotate(135deg);
+      }
+
+      .change .menu-symbol::after {
+          transform: translateY(-12px) rotate(-135deg);
+      }
+
+      .change .menu-symbol div {
+          transform: scale(0);
       }
 
       .bar1, .bar2, .bar3 {
           width: 35px;
-          height: 5px;
+          height: 3px;
           background: #c2c2c2;
-          margin: 6px 0;
+          margin: 9px 0;
           transition: .4s;
       }
 
@@ -50,22 +74,14 @@
         -webkit-transform: rotate(45deg) translate(-8px, -8px);
         transform: rotate(45deg) translate(-8px, -8px);
       }
-  </style>
-
-</head>
-
-<body id="page-top">
-
-  <!-- Navigation -->
+  </style> <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
     <div class="container">
       <a class="navbar-brand js-scroll-trigger" href="#page-top">TSA-Allround</a>
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      <button id="menuButton" class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"  onclick="this.classList.toggle('change')">
         <!-- <span class="navbar-toggler-icon"></span> -->
-        <div class="menu-symbol" onclick="this.classList.toggle('change')">
-            <div class="bar1"></div>
-            <div class="bar2"></div>
-            <div class="bar3"></div>
+        <div class="menu-symbol">
+            <div></div>
         </div>
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
@@ -289,7 +305,7 @@
   <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
 
   <!-- Custom scripts for this template -->
-  <script src="js/creative.min.js"></script>
+  <script src="js/creative.js"></script>
 
 </body>
 
