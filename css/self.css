@@ -1,0 +1,54 @@
+.menu-symbol {
+    margin: 1em;
+    width: 40px;
+}
+
+.menu-symbol::after,
+.menu-symbol::before,
+.menu-symbol div {
+    background-color: #c2c2c2;
+    border-radius: 3px;
+    content:'';
+    display: block;
+    height: 5px;
+    margin: 7px 0;
+    transition: all .2s ease-in-out;
+}
+
+.change .menu-symbol::before {
+    transform: translateY(12px) rotate(135deg);
+}
+
+.change .menu-symbol::after {
+    transform: translateY(-12px) rotate(-135deg);
+}
+
+.change .menu-symbol div {
+    transform: scale(0);
+}
+
+.bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 3px;
+    background: #c2c2c2;
+    margin: 9px 0;
+    transition: .4s;
+}
+
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2 {
+    opacity: 0;
+}
+
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px);
+  transform: rotate(45deg) translate(-8px, -8px);
+}
+
+#portfolio {
+    background: #343a40 !important;
+}
