@@ -57,4 +57,6 @@
     }
   });
 
+  $('.dropdown-toggle').dropdown();
+
 })(jQuery); // End of use strict

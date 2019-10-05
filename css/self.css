@@ -31,3 +31,20 @@
     background: #E8BC44
     /* background: #343a40 !important; */
 }
+
+.dropdown-menu {
+    background-color: #132F49;
+    border: none;
+}
+
+.dropdown-item {
+    color: rgba(255, 255, 255, .6) !important;
+    font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.dropdown-item:hover, .dropdown-item:focus {
+    color: #ffffff !important;
+    text-decoration: none;
+    background-color: #132F49;
+    
+  }
