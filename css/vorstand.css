@@ -44,9 +44,10 @@
 }
 
 header {
-    background: #e8b923;
+    background: #e9e0c8;
     padding: 1rem;
     padding-top: 8rem;
+    min-height: 90%;
 }
 
 .mail {
