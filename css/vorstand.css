@@ -92,4 +92,9 @@ header {
     header {
         padding-top: 6rem;
     }
+
+    .nav-item {
+        display: flex;
+        align-items: center;
+    }
 }

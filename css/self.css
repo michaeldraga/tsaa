@@ -47,4 +47,11 @@
     text-decoration: none;
     background-color: #132F49;
     
-  }
+}
+
+@media (min-width: 992px) {
+    .nav-item {
+        display: flex;
+        align-items: center;
+    }
+}
