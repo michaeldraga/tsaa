@@ -1,6 +1,11 @@
-.card-img-lft {
+/* .card-img-lft {
     max-height: 210px;
     width: auto;
+} */
+
+.card-img-lft {
+    width: 100px;
+    height: 150px;
 }
 
 .card {
@@ -60,15 +65,17 @@ header {
     color: #666666;
 }
 
+@media (min-width: 576px) {
+    .card {
+        font-size: .8rem;
+    }
+}
+
 @media (min-width: 768px) {
     .col-md-6 {
         max-width: 50%;
         flex: 0 0 50%;
         margin: 0 0 0 0;
-    }
-
-    .card {
-        font-size: .8rem;
     }
 
     header {
