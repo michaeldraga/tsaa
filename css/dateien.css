@@ -1,7 +1,7 @@
 header.masthead {
     padding-top: 10rem;
     padding-bottom: calc(10rem - 72px);
-    background: #343a40;
+    background: #e9e0c8;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -51,13 +51,13 @@ header.masthead {
     text-decoration: none;
 }
 
-a,
-a:active,
-a:hover {
-    text-decoration: none;
+header a {
+    text-decoration: underline !important;
+    color: #000000 !important;
 }
 
 a:active,
 a:hover {
-    color: #ffffff;
+    text-decoration: none !important;
+    color: #666666 !important;
 }
