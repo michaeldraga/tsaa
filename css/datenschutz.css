@@ -1,0 +1,56 @@
+header.masthead {
+    background: #ffffff;
+    padding: 8rem 0 calc(10rem - 72px) 0;
+    min-height: 90%;
+    height: fit-content;
+    font-size: .7rem !important;
+    line-height: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header h4 {
+    font-size: 1.2rem !important;
+}
+
+header a {
+    color: #000000;
+    text-decoration: underline;
+}
+
+header p {
+
+}
+
+header a:hover,
+header a:active {
+    color: #666666;
+}
+
+.card {
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+@media (min-width: 768px) {
+    .text-container {
+        width: 750px;
+    }
+}
+
+@media (min-width: 992px) {
+
+    header {
+        padding-top: 6rem;
+    }
+
+    .text-container {
+        width: 80%;
+    }
+
+    header p {
+        font-size: .8rem !important;
+        line-height: 1.75rem !important;
+    }
+}
