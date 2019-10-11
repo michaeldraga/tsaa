@@ -1,6 +1,6 @@
 header.masthead {
     background: #ffffff;
-    padding: 8rem 0 calc(10rem - 72px) 0;
+    padding: 8rem 1rem calc(10rem - 72px) 1rem;
     min-height: 90%;
     height: fit-content;
     font-size: .7rem !important;

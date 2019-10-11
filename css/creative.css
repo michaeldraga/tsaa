@@ -9745,3 +9745,8 @@ a {
 button {
     outline: none !important;
 }
+
+footer a {
+    display: block;
+    padding-bottom: 1rem;
+}
