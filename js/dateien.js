@@ -58,6 +58,8 @@
     });
   
     $('.dropdown-toggle').dropdown();
+
+    $('#brandname').text('TSA-Allround e.V.')
   
   })(jQuery); // End of use strict
   
