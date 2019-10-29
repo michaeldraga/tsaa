@@ -1,4 +1,10 @@
+.gitignore
 node_modules
 bower_components
 oldREADME.md
 pages/vorstand-stupid.html
+app.js
+vectors.cpp
+vectors.exe
+patterns
+stochastik.py

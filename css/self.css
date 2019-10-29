@@ -59,3 +59,7 @@
 #portfolio .container-fluid .portfolio-box .portfolio-box-caption {
     background: rgba(192, 35, 44, .9);
 }
+
+#phone-number {
+    display: block;
+}
