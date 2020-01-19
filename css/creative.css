@@ -9665,11 +9665,11 @@ hr.light {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 72px);
-  background: linear-gradient(to bottom, rgba(19, 47, 73, .8) 0%, rgba(192, 35, 44, 0.6) 100%), url("../img/adk.jpeg");
+  background: linear-gradient(to bottom, rgba(19, 47, 73, .8) 0%, rgba(192, 35, 44, 0.6) 100%), url("../img/logo.png");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
-  background-size: cover;
+  background-size: contain;
 }
 
 header.masthead h1 {
