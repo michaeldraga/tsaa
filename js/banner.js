@@ -1,0 +1,1 @@
+window.addEventListener('load', () => document.getElementsByClassName('wpcc-privacy')[0].target = '');
