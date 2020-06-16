@@ -1,1 +1,1 @@
-window.addEventListener('load', () => document.getElementsByClassName('wpcc-privacy')[0].target = '');
+window.addEventListener('load', () => document.getElementsByClassName('wpcc-btn')[0].href = '/files/Hygienekonzept Tanz Sport Academy Allround e.V.pdf');
