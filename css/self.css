@@ -124,3 +124,36 @@
 .btn-primary:focus, .btn-primary.focus {
     box-shadow: 0 0 0 0.2rem rgba(15, 43, 69, 0.5);
 }
+
+@media (min-width: 992px) {
+    header.masthead {
+      height: auto;
+    }
+  }
+
+
+.flyer {
+    box-shadow: 0px 0px 50px black;
+    width: 40%; 
+    margin: 2rem 2rem;
+    /* position: relative; */
+}
+
+.mobile-shadow {
+    display: block;
+}
+
+@media (max-width: 768px) {
+    .flyer {
+        margin: 0 0;
+        box-shadow: none;
+        width: unset;
+    }
+
+    .mobile-shadow {
+        display: flex;
+        flex-direction: column;
+        box-shadow: 0px 0px 50px black;
+        width: 50%;
+    }
+}
