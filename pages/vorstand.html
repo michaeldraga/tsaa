@@ -1,299 +1,438 @@
 <html lang="en">
-<!DOCTYPE html>
+  <!DOCTYPE html>
 
-<head>
-
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
 
     <title>Mitgliederinfo</title>
 
     <!-- Font Awesome Icons -->
-    <link href="../vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link
+      href="../vendor/fontawesome-free/css/all.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
 
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet">
-    <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic'
-        rel='stylesheet' type='text/css'>
-    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- Plugin CSS -->
-    <link href="../vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
+    <link href="../vendor/magnific-popup/magnific-popup.css" rel="stylesheet" />
 
     <!-- Theme CSS - Includes Bootstrap -->
-    <link href="../css/creative.css" rel="stylesheet">
+    <link href="../css/creative.css" rel="stylesheet" />
 
-    <link href="../css/dateien.css" rel="stylesheet">
+    <link href="../css/dateien.css" rel="stylesheet" />
 
-    <link href="../css/dropdown.css" rel="stylesheet">
-    <link href="../css/vorstand.css" rel="stylesheet">
-
+    <link href="../css/dropdown.css" rel="stylesheet" />
+    <link href="../css/vorstand.css" rel="stylesheet" />
 
     <!-- <link rel="stylesheet" type="text/css" href="//wpcc.io/lib/1.0.2/cookieconsent.min.css"/><script src="//wpcc.io/lib/1.0.2/cookieconsent.min.js"></script><script>window.addEventListener("load", function(){window.wpcc.init({"colors":{"popup":{"background":"#ff0000","text":"#ffffff","border":"#c25e5e"},"button":{"background":"#ff5454","text":"#ffffff"}},"fontsize":"large","content":{"message":"WICHTIGE INFORMATION: Aufgrund der momentanen COVID-19 Pandemie ist der TSA-Allround e.V. bis auf weiteres geschlossen. Bei Fragen melden Sie sich gerne bei uns. Wir danken für Ihr Verständnis.","link":"Kontaktformular","href":"../index.html#contact","button":"Verstanden!"},"position":"bottom"})});</script> -->
     <!-- <link rel="stylesheet" type="text/css" href="//wpcc.io/lib/1.0.2/cookieconsent.min.css"/><script src="//wpcc.io/lib/1.0.2/cookieconsent.min.js"></script><script>window.addEventListener("load", function(){window.wpcc.init({"border":"thin","corners":"small","colors":{"popup":{"background":"#e2f7d4","text":"#000000","border":"#7fc25e"},"button":{"background":"#7fc25e","text":"#ffffff"}},"position":"bottom","content":{"message":"Sehr geehrte Mitglieder des Tanz Sport Academy Allround e.V., wie sie vielleicht schon mitbekommen haben, können wir inzwischen trotz der Covid 19 Pandemie wieder Tanzsporttraining anbieten. Dafür müssen sich jedoch alle an unsere Hygienevorschriften halten. Klicken Sie auf den Button, auf dem Hygienevorschriften steht, um zu einem Dokument mit allen Vorschriften zu gelangen.","link":"Hygienevorschriften","button":"Hygienevorschriften","href":"/files/Hygienekonzept Tanz Sport Academy Allround e.V.pdf"}})});</script> -->
-</head>
+  </head>
 
-<body>
-
-
+  <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
-        <div class="container">
-            <!-- <img src="./img/logo.png" alt="Logo des Vereins" width="10%" height="auto" style="margin-right: 20px;"> -->
-            <a class="navbar-brand js-scroll-trigger" href="../index.html#page-top">TSA-Allround e.V.</a>
-            <button id="menuButton" class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
-                data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
-                aria-label="Toggle navigation" onclick="this.classList.toggle('change')">
-                <!-- <span class="navbar-toggler-icon"></span> -->
-                <div class="menu-symbol">
-                    <div></div>
+    <nav
+      class="navbar navbar-expand-lg navbar-light fixed-top py-3"
+      id="mainNav"
+    >
+      <div class="container">
+        <!-- <img src="./img/logo.png" alt="Logo des Vereins" width="10%" height="auto" style="margin-right: 20px;"> -->
+        <a class="navbar-brand js-scroll-trigger" href="../index.html#page-top"
+          >TSA-Allround e.V.</a
+        >
+        <button
+          id="menuButton"
+          class="navbar-toggler navbar-toggler-right"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarResponsive"
+          aria-controls="navbarResponsive"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+          onclick="this.classList.toggle('change')"
+        >
+          <!-- <span class="navbar-toggler-icon"></span> -->
+          <div class="menu-symbol">
+            <div></div>
+          </div>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto my-2 my-lg-0">
+            <li class="nav-item">
+              <div class="dropdown show">
+                <!-- <a class="nav-link js-scroll-trigger" href="#portfolio">Unsere Teams</a> -->
+                <a
+                  id="dLabel"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                  class="nav-link dropdown-toggle"
+                  href
+                  role="button"
+                  >Verein</a
+                >
+
+                <div class="dropdown-menu" aria-labelledby="dLabel">
+                  <a
+                    class="dropdown-item js-scroll-trigger"
+                    href="../index.html#about"
+                    >Über uns</a
+                  >
+                  <a href="./vorstand.html" class="dropdown-item">Vorstand</a>
+                  <a href="http://tanzschule-allround.de" class="dropdown-item"
+                    >Räumlichkeiten</a
+                  >
+                  <a
+                    href="../index.html#footer"
+                    class="dropdown-item js-scroll-trigger"
+                    >Sponsoren</a
+                  >
                 </div>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ml-auto my-2 my-lg-0">
-                    <li class="nav-item">
-                        <div class="dropdown show">
-                            <!-- <a class="nav-link js-scroll-trigger" href="#portfolio">Unsere Teams</a> -->
-                            <a id="dLabel" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
-                                class="nav-link dropdown-toggle" href role="button">Verein</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <div class="dropdown show">
+                <!-- <a class="nav-link js-scroll-trigger" href="#portfolio">Unsere Teams</a> -->
+                <a
+                  id="dLabel"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  >Unsere Teams</a
+                >
 
-                            <div class="dropdown-menu" aria-labelledby="dLabel">
-                                <a class="dropdown-item js-scroll-trigger" href="../index.html#about">Über uns</a>
-                                <a href="./vorstand.html" class="dropdown-item">Vorstand</a>
-                                <a href="http://tanzschule-allround.de" class="dropdown-item">Räumlichkeiten</a>
-                                <a href="../index.html#footer" class="dropdown-item js-scroll-trigger">Sponsoren</a>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="nav-item">
-                        <div class="dropdown show">
-                            <!-- <a class="nav-link js-scroll-trigger" href="#portfolio">Unsere Teams</a> -->
-                            <a id="dLabel" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
-                                class="nav-link dropdown-toggle" href="#" role="button">Unsere Teams</a>
-
-
-                            <div class="dropdown-menu" aria-labelledby="dLabel">
-                                <a href="https://allrounddancekader.de" class="dropdown-item">Allround Dance Kader</a>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="nav-item">
-                        <!-- <a class="nav-link js-scroll-trigger" href="#portfolio">Unsere Teams</a> -->
-                        <a id="dLabel" class="nav-link" href="./kurse.html" role="button">Unsere Kurse</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="../index.html#shows">Showanfrage senden</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="./mitgliederinfo.html">Mitgliederinfo</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="../index.html#contact">Kontakt</a>
-                    </li>
-                </ul>
-            </div>
+                <div class="dropdown-menu" aria-labelledby="dLabel">
+                  <a href="https://allrounddancekader.de" class="dropdown-item"
+                    >Allround Dance Kader</a
+                  >
+                </div>
+              </div>
+            </li>
+            <li class="nav-item">
+              <!-- <a class="nav-link js-scroll-trigger" href="#portfolio">Unsere Teams</a> -->
+              <a id="dLabel" class="nav-link" href="./kurse.html" role="button"
+                >Unsere Kurse</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="../index.html#shows"
+                >Showanfrage senden</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="./mitgliederinfo.html"
+                >Mitgliederinfo</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="../index.html#contact"
+                >Kontakt</a
+              >
+            </li>
+          </ul>
         </div>
+      </div>
     </nav>
 
     <header>
-        <div class="vorstand">
-            <!-- Theresa-Marie Wenzel -->
-            <div class="col-12 col-md-6">
-                <div class="card">
-                    <h5 class="card-title">Theresa-Marie Wenzel</h5>
-                    <p class="card-text"><small class="text-muted">Vorstandsvorsitzende</small></p>
-                    <div class="info">
-                        <div class="card-portrait">
-                            <img src="../img/vorstand/Theresa-Marie_Wenzel-portrait-min.jpg"
-                                alt="Bild von Theresa-Marie Wenzel" class="card-img-lft">
-                        </div>
-                        <div class="card-body">
-                            <p class="card-text">Als aufgeschlossener, lebensfroher und zuverlässiger Mensch bekleidet
-                                Theresa-Marie Wenzel den Posten der Vorstandsvorsitzenden und trainiert in einem
-                                familiären und effizienten Verhältnis den Allround Dance Kader.</p>
-                        </div>
-                    </div>
-                    <div class="contact">
-                        <div class="card-text">Email: <a class="mail"
-                                href="mailto:info@tsa-allround.de">info@tsa-allround.de</a></div>
-                        <div class="card-text">Telefonnummer: +49 159 01421081</div>
-                    </div>
-                </div>
+      <div class="vorstand">
+        <!-- Theresa-Marie Wenzel -->
+        <div class="col-12 col-md-6">
+          <div class="card">
+            <h5 class="card-title">Theresa-Marie Wenzel</h5>
+            <p class="card-text">
+              <small class="text-muted">Vorstandsvorsitzende</small>
+            </p>
+            <div class="info">
+              <div class="card-portrait">
+                <img
+                  src="../img/vorstand/Theresa-Marie_Wenzel-portrait-min.jpg"
+                  alt="Bild von Theresa-Marie Wenzel"
+                  class="card-img-lft"
+                />
+              </div>
+              <div class="card-body">
+                <p class="card-text">
+                  Als aufgeschlossener, lebensfroher und zuverlässiger Mensch
+                  bekleidet Theresa-Marie Wenzel den Posten der
+                  Vorstandsvorsitzenden und trainiert in einem familiären und
+                  effizienten Verhältnis den Allround Dance Kader.
+                </p>
+              </div>
             </div>
-            <!-- Melanie Riemer -->
-            <div class="col-12 col-md-6">
-                <div class="card">
-                    <h5 class="card-title">Melanie Riemer</h5>
-                    <p class="card-text"><small class="text-muted">Stellvertretende Vorsitzende und
-                            Schatzmeisterin</small></p>
-                    <div class="info">
-                        <div class="card-portrait">
-                            <img src="../img/vorstand/Melanie_Riemer-min.jpg" alt="Bild von Melanie Riemer"
-                                class="card-img-lft">
-                        </div>
-                        <div class="card-body">
-                            <p class="card-text">Als unsere Schatzmeisterin kümmert sich Melanie Riemer mit Transparenz
-                                und akribischer Genauigkeit um unsere Finanzen und alles, was dazu gehört. Außerdem ist
-                                sie stellvertretende Vorstandsvorsitzende.</p>
-                        </div>
-                    </div>
-                    <div class="contact">
-                            <div class="card-text">
-                                <div class="card-text">Email: <a class="mail"
-                                    href="mailto:schatzmeister@tsa-allround.de">schatzmeister@tsa-allround.de</a>
-                            </div></div>
-                            <div class="card-text"></div>
-                        </div>
-                </div>
+            <div class="contact">
+              <div class="card-text">
+                Email:
+                <a class="mail" href="mailto:info@tsa-allround.de"
+                  >info@tsa-allround.de</a
+                >
+              </div>
+              <div class="card-text">Telefonnummer: +49 159 01421081</div>
             </div>
-            <!-- Beatrice Kelten -->
-            <div class="col-12 col-md-6">
-                <div class="card">
-                    <h5 class="card-title">Beatrice Kelten</h5>
-                    <p class="card-text"><small class="text-muted">2. stellvertretende Vereinsvorsitzende</small></p>
-                    <div class="info">
-                        <div class="card-portrait">
-                            <img src="../img/vorstand/Beatrice_Kelten-min.jpg" alt="Bild von Beatrice Kelten"
-                                class="card-img-lft">
-                        </div>
-                        <div class="card-body">
-                            <p class="card-text">Beatrice Kelten bekleidet mit Zuverlässigkeit und Engagement den Posten
-                                der 2. stellvertretenden Vereinsvorsitzenden.</p>
-                        </div>
-                    </div>
-                    <div class="contact">
-                            <div class="card-text"> </div>
-                            <div class="card-text"> </div>
-                        </div>
-                </div>
-            </div>
-            <!-- Sebastian Körnig -->
-            <div class="col-12 col-md-6" id="sportwart">
-                <div class="card">
-                    <h5 class="card-title">Markus Kratz</h5>
-                    <p class="card-text"><small class="text-muted">Sportwart</small></p>
-                    <div class="info">
-                        <div class="card-portrait">
-                            <img src="../img/vorstand/Markus_Kratz-min.jpg" alt="Bild von Markus Kratz"
-                                class="card-img-lft">
-                        </div>
-                        <div class="card-body">
-                            <p class="card-text">Markus Kratz betreut unsere Turnierpaare gewissenhaft, ist
-                                Ansprechpartner rund um das Thema Turniertanz. Planung, Organisation und Durchführung
-                                von Turnieren sowie Veranstaltungen gehören zu seinen Aufgaben, in direkter
-                                Zusammenarbeit mit dem gesamten Vorstand.</p>
-                        </div>
-                    </div>
-                    <div class="contact">
-                            <div class="card-text">Email: <a class="mail"
-                                    href="mailto:sportwart@tsa-allround.de">sportwart@tsa-allround.de</a></div>
-                            <div class="card-text"></div>
-                    </div>
-                </div>
-            </div>
-            <!-- Susann Krödel -->
-            <div class="col-12 col-md-6">
-                <div class="card">
-                    <h5 class="card-title">Susann Krödel</h5>
-                    <p class="card-text"><small class="text-muted">Schriftführerin, Beauftragte für
-                            Kleiderkammer</small></p>
-                    <div class="info">
-                        <div class="card-portrait">
-                            <img src="../img/vorstand/Susann_Krödel-min.jpg" alt="Bild von Susann Krödel"
-                                class="card-img-lft">
-                        </div>
-                        <div class="card-body">
-                            <p class="card-text">Susann Krödel ist als Schriftführerin für die Führung des Protokolls in
-                                den Vorstandsversammlungen zuständig. Außerdem kümmert sie sich als Beauftragte für die
-                                Kleiderkammer um die Organisation der Kostüme.</p>
-                        </div>
-                    </div>
-                    <div class="contact">
-                            <div class="card-text"></div>
-                            <div class="card-text"></div>
-                        </div>
-                </div>
-
-            </div>
-            <!-- Micaela Schindler -->
-            <div class="col-12 col-md-6">
-                <div class="card">
-                    <h5 class="card-title">Micaela Schindler</h5>
-                    <p class="card-text"><small class="text-muted">PR-Manager, Requisitenpflege, Meisterschafts- und
-                            Showrecherchen</small></p>
-                    <div class="info">
-                        <div class="card-portrait">
-                            <img src="../img/vorstand/Micaela_Schindler-min.jpg" alt="Bild von Micaela Schindler"
-                                class="card-img-lft">
-                        </div>
-                        <div class="card-body">
-                            <p class="card-text">Micaela Schindler kümmert sich mit viel Engagement als PR-Managerin um
-                                unseren Außenauftritt und ist weiterhin Beauftragte für Requisiten und Recherchen
-                                bezüglich Meisterschaften und Shows. Eine echte "Allrounderin" eben.</p>
-                        </div>
-                    </div>
-                    <div class="contact">
-                            <div class="card-text"></div>
-                            <div class="card-text"></div>
-                        </div>
-                </div>
-            </div>
-            <!-- Stefanie Köppen -->
-            <div class="col-12 col-md-6">
-                <div class="card">
-                    <h5 class="card-title">Stefanie Köppen</h5>
-                    <p class="card-text"><small class="text-muted">Organisatorin der Hotelbuchungen</small></p>
-                    <div class="info">
-                        <div class="card-portrait">
-                            <img src="../img/vorstand/Stefanie_Köppen-min.jpg" alt="Bild von Stefanie Köppen"
-                                class="card-img-lft">
-                        </div>
-                        <div class="card-body">
-                            <p class="card-text">Mit einem besonderen Auge für die Bedürfnisse der Tänzer kümmert sich
-                                Stefanie Köppen um die Organisation der bestmöglichsten, bezahlbaren Unterkünfte für
-                                Turniere.</p>
-                        </div>
-                    </div>
-                    <div class="contact">
-                            <div class="card-text"></div>
-                            <div class="card-text"></div>
-                        </div>
-                </div>
-            </div>
-            <!-- Bianka Roggisch -->
-            <div class="col-12 col-md-6">
-                <div class="card">
-                    <h5 class="card-title">Bianka Roggisch</h5>
-                    <p class="card-text"><small class="text-muted">Bus- und Reiseplanerin</small></p>
-                    <div class="info">
-                        <div class="card-portrait">
-                            <img src="../img/vorstand/Bianka_Roggisch-min.jpg" alt="Bild von Bianka Roggisch"
-                                class="card-img-lft">
-                        </div>
-                        <div class="card-body">
-                            <p class="card-text">Mit einem besonderen Auge für die Bedürfnisse der Tänzer kümmert sich
-                                Bianka Roggisch um die Organisation der bestmöglichsten, bezahlbaren Bus-,
-                                beziehungsweise Reisemöglichkeiten für Turniere.</p>
-                        </div>
-                    </div>
-                    <div class="contact">
-                            <div class="card-text"></div>
-                            <div class="card-text"></div>
-                        </div>
-                </div>
-            </div>
-
+          </div>
         </div>
+        <!-- Melanie Riemer -->
+        <div class="col-12 col-md-6">
+          <div class="card">
+            <h5 class="card-title">Melanie Riemer</h5>
+            <p class="card-text">
+              <small class="text-muted">Stellvertretende Vorsitzende</small>
+            </p>
+            <div class="info">
+              <div class="card-portrait">
+                <img
+                  src="../img/vorstand/Melanie_Riemer-min.jpg"
+                  alt="Bild von Melanie Riemer"
+                  class="card-img-lft"
+                />
+              </div>
+              <div class="card-body">
+                <p class="card-text">
+                  Als unsere stellvertretende Vorstandsvorsitzende kümmert sich
+                  Melanie Riemer mit Engagement um die vielen verschiedenen
+                  Angelegenheiten unseres Vereinslebens.
+                </p>
+              </div>
+            </div>
+            <div class="contact">
+              <div class="card-text">
+                <div class="card-text">
+                  Email:
+                  <a class="mail" href="mailto:verein@tsa-allround.de"
+                    >verein@tsa-allround.de</a
+                  >
+                </div>
+              </div>
+              <div class="card-text"></div>
+            </div>
+          </div>
+        </div>
+        <!-- Beatrice Kelten -->
+        <div class="col-12 col-md-6">
+          <div class="card">
+            <h5 class="card-title">Beatrice Kelten</h5>
+            <p class="card-text">
+              <small class="text-muted"
+                >2. stellvertretende Vereinsvorsitzende</small
+              >
+            </p>
+            <div class="info">
+              <div class="card-portrait">
+                <img
+                  src="../img/vorstand/Beatrice_Kelten-min.jpg"
+                  alt="Bild von Beatrice Kelten"
+                  class="card-img-lft"
+                />
+              </div>
+              <div class="card-body">
+                <p class="card-text">
+                  Beatrice Kelten bekleidet mit Zuverlässigkeit und Engagement
+                  den Posten der 2. stellvertretenden Vereinsvorsitzenden.
+                </p>
+              </div>
+            </div>
+            <div class="contact">
+              <div class="card-text"></div>
+              <div class="card-text"></div>
+            </div>
+          </div>
+        </div>
+        <!-- Sebastian Körnig -->
+        <div class="col-12 col-md-6" id="sportwart">
+          <div class="card">
+            <h5 class="card-title">Markus Kratz</h5>
+            <p class="card-text"><small class="text-muted">Sportwart</small></p>
+            <div class="info">
+              <div class="card-portrait">
+                <img
+                  src="../img/vorstand/Markus_Kratz-min.jpg"
+                  alt="Bild von Markus Kratz"
+                  class="card-img-lft"
+                />
+              </div>
+              <div class="card-body">
+                <p class="card-text">
+                  Markus Kratz betreut unsere Turnierpaare gewissenhaft, ist
+                  Ansprechpartner rund um das Thema Turniertanz. Planung,
+                  Organisation und Durchführung von Turnieren sowie
+                  Veranstaltungen gehören zu seinen Aufgaben, in direkter
+                  Zusammenarbeit mit dem gesamten Vorstand.
+                </p>
+              </div>
+            </div>
+            <div class="contact">
+              <div class="card-text">
+                Email:
+                <a class="mail" href="mailto:sportwart@tsa-allround.de"
+                  >sportwart@tsa-allround.de</a
+                >
+              </div>
+              <div class="card-text"></div>
+            </div>
+          </div>
+        </div>
+        <!-- Susann Krödel -->
+        <div class="col-12 col-md-6">
+          <div class="card">
+            <h5 class="card-title">Susann Krödel</h5>
+            <p class="card-text">
+              <small class="text-muted"
+                >Schriftführerin und Kostümbeauftrage</small
+              >
+            </p>
+            <div class="info">
+              <div class="card-portrait">
+                <img
+                  src="../img/vorstand/Susann_Krödel-min.jpg"
+                  alt="Bild von Susann Krödel"
+                  class="card-img-lft"
+                />
+              </div>
+              <div class="card-body">
+                <p class="card-text">
+                    Susann Krödel ist als Schriftführerin für die Führung des Protokolls in den Vorstands- / Mitgliederversammlungen zuständig. Außerdem kümmert sie sich liebevoll um die Bühnenkostüme der Kadertänzer.
+                </p>
+              </div>
+            </div>
+            <div class="contact">
+              <div class="card-text"></div>
+              <div class="card-text"></div>
+            </div>
+          </div>
+        </div>
+        <!-- Micaela Schindler -->
+        <div class="col-12 col-md-6">
+          <div class="card">
+            <h5 class="card-title">Micaela Schindler</h5>
+            <p class="card-text">
+              <small class="text-muted"
+                >PR-Manager, Requisitenpflege, Meisterschafts- und
+                Showrecherchen</small
+              >
+            </p>
+            <div class="info">
+              <div class="card-portrait">
+                <img
+                  src="../img/vorstand/Micaela_Schindler-min.jpg"
+                  alt="Bild von Micaela Schindler"
+                  class="card-img-lft"
+                />
+              </div>
+              <div class="card-body">
+                <p class="card-text">
+                  Micaela Schindler kümmert sich mit viel Engagement als
+                  PR-Managerin um unseren Außenauftritt und ist weiterhin
+                  Beauftragte für Requisiten und Recherchen bezüglich
+                  Meisterschaften und Shows. Eine echte "Allrounderin" eben.
+                </p>
+              </div>
+            </div>
+            <div class="contact">
+              <div class="card-text"></div>
+              <div class="card-text"></div>
+            </div>
+          </div>
+        </div>
+        <!-- Stefanie Köppen -->
+        <div class="col-12 col-md-6">
+          <div class="card">
+            <h5 class="card-title">Stefanie Köppen</h5>
+            <p class="card-text">
+              <small class="text-muted">Organisatorin der Hotelbuchungen</small>
+            </p>
+            <div class="info">
+              <div class="card-portrait">
+                <img
+                  src="../img/vorstand/Stefanie_Köppen-min.jpg"
+                  alt="Bild von Stefanie Köppen"
+                  class="card-img-lft"
+                />
+              </div>
+              <div class="card-body">
+                <p class="card-text">
+                  Mit einem besonderen Auge für die Bedürfnisse der Tänzer
+                  kümmert sich Stefanie Köppen um die Organisation der
+                  bestmöglichsten, bezahlbaren Unterkünfte für Turniere.
+                </p>
+              </div>
+            </div>
+            <div class="contact">
+              <div class="card-text"></div>
+              <div class="card-text"></div>
+            </div>
+          </div>
+        </div>
+        <!-- Bianka Roggisch -->
+        <div class="col-12 col-md-6">
+          <div class="card">
+            <h5 class="card-title">Bianka Roggisch</h5>
+            <p class="card-text">
+              <small class="text-muted">Schatzmeister und Reiseplanerin</small>
+            </p>
+            <div class="info">
+              <div class="card-portrait">
+                <img
+                  src="../img/vorstand/Bianka_Roggisch-min.jpg"
+                  alt="Bild von Bianka Roggisch"
+                  class="card-img-lft"
+                />
+              </div>
+              <div class="card-body">
+                <p class="card-text">
+                  Als unsere Schatzmeisterin kümmert sich Bianka Roggisch mit
+                  Transparenz und akribischer Genauigkeit um unsere Finanzen.
+                  Außerdem ist sie für die Organisation der Reisemöglichkeiten
+                  der Turniere verantwortlich.
+                </p>
+              </div>
+            </div>
+            <div class="contact">
+              <div class="card-text">
+                Email:
+                <a class="mail" href="mailto:schatzmeister@tsa-allround.de"
+                  >schatzmeister@tsa-allround.de</a
+                >
+              </div>
+              <div class="card-text"></div>
+            </div>
+          </div>
+        </div>
+      </div>
     </header>
 
     <!-- Footer -->
     <footer class="bg-light py-5">
-        <div class="container">
-            <a class="text-center" href="./datenschutz.html">Datenschutzerklärung</a>
-            <div class="small text-center text-muted">Copyright &copy; 2019 - Start Bootstrap</div>
+      <div class="container">
+        <a class="text-center" href="./datenschutz.html"
+          >Datenschutzerklärung</a
+        >
+        <div class="small text-center text-muted">
+          Copyright &copy; 2019 - Start Bootstrap
         </div>
+      </div>
     </footer>
 
     <!-- Bootstrap core JavaScript -->
@@ -307,6 +446,5 @@
     <!-- Custom scripts for this template -->
     <script src="../js/dateien.js"></script>
     <script src="../js/banner.js"></script>
-</body>
-
+  </body>
 </html>
