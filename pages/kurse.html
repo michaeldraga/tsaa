@@ -1,178 +1,255 @@
 <html lang="en">
-<!DOCTYPE html>
+  <!DOCTYPE html>
 
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
 
     <title>Kurse</title>
 
     <!-- Font Awesome Icons -->
-    <link href="../vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link
+      href="../vendor/fontawesome-free/css/all.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
 
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet">
-    <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic'
-        rel='stylesheet' type='text/css'>
+    <link
+      href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic"
+      rel="stylesheet"
+      type="text/css"
+    />
 
     <!-- Plugin CSS -->
-    <link href="../vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
+    <link href="../vendor/magnific-popup/magnific-popup.css" rel="stylesheet" />
 
     <!-- Theme CSS - Includes Bootstrap -->
-    <link href="../css/creative.css" rel="stylesheet">
+    <link href="../css/creative.css" rel="stylesheet" />
 
-    <link href="../css/dateien.css" rel="stylesheet">
+    <link href="../css/dateien.css" rel="stylesheet" />
 
-    <link href="../css/dropdown.css" rel="stylesheet">
-    <link href="../css/vorstand.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link href="../css/dropdown.css" rel="stylesheet" />
+    <link href="../css/vorstand.css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
     <!-- <link rel="stylesheet" type="text/css" href="//wpcc.io/lib/1.0.2/cookieconsent.min.css"/><script src="//wpcc.io/lib/1.0.2/cookieconsent.min.js"></script><script>window.addEventListener("load", function(){window.wpcc.init({"colors":{"popup":{"background":"#ff0000","text":"#ffffff","border":"#c25e5e"},"button":{"background":"#ff5454","text":"#ffffff"}},"fontsize":"large","content":{"message":"WICHTIGE INFORMATION: Aufgrund der momentanen COVID-19 Pandemie ist der TSA-Allround e.V. bis auf weiteres geschlossen. Bei Fragen melden Sie sich gerne bei uns. Wir danken für Ihr Verständnis.","link":"Kontaktformular","href":"../index.html#contact","button":"Verstanden!"},"position":"bottom"})});</script> -->
     <!-- <link rel="stylesheet" type="text/css" href="//wpcc.io/lib/1.0.2/cookieconsent.min.css"/><script src="//wpcc.io/lib/1.0.2/cookieconsent.min.js"></script><script>window.addEventListener("load", function(){window.wpcc.init({"border":"thin","corners":"small","colors":{"popup":{"background":"#e2f7d4","text":"#000000","border":"#7fc25e"},"button":{"background":"#7fc25e","text":"#ffffff"}},"position":"bottom","content":{"message":"Sehr geehrte Mitglieder des Tanz Sport Academy Allround e.V., wie sie vielleicht schon mitbekommen haben, können wir inzwischen trotz der Covid 19 Pandemie wieder Tanzsporttraining anbieten. Dafür müssen sich jedoch alle an unsere Hygienevorschriften halten. Klicken Sie auf den Button, auf dem Hygienevorschriften steht, um zu einem Dokument mit allen Vorschriften zu gelangen.","link":"Hygienevorschriften","button":"Hygienevorschriften","href":"/files/Hygienekonzept Tanz Sport Academy Allround e.V.pdf"}})});</script> -->
-</head>
+  </head>
 
-<body>
+  <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
-        <div class="container">
-            <!-- <img src="./img/logo.png" alt="Logo des Vereins" width="10%" height="auto" style="margin-right: 20px;"> -->
-            <a class="navbar-brand js-scroll-trigger" href="../index.html#page-top">TSA-Allround e.V.</a>
-            <button id="menuButton" class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
-                data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
-                aria-label="Toggle navigation" onclick="this.classList.toggle('change')">
-                <!-- <span class="navbar-toggler-icon"></span> -->
-                <div class="menu-symbol">
-                    <div></div>
+    <nav
+      class="navbar navbar-expand-lg navbar-light fixed-top py-3"
+      id="mainNav"
+    >
+      <div class="container">
+        <!-- <img src="./img/logo.png" alt="Logo des Vereins" width="10%" height="auto" style="margin-right: 20px;"> -->
+        <a class="navbar-brand js-scroll-trigger" href="../index.html#page-top"
+          >TSA-Allround e.V.</a
+        >
+        <button
+          id="menuButton"
+          class="navbar-toggler navbar-toggler-right"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarResponsive"
+          aria-controls="navbarResponsive"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+          onclick="this.classList.toggle('change')"
+        >
+          <!-- <span class="navbar-toggler-icon"></span> -->
+          <div class="menu-symbol">
+            <div></div>
+          </div>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto my-2 my-lg-0">
+            <li class="nav-item">
+              <div class="dropdown show">
+                <!-- <a class="nav-link js-scroll-trigger" href="#portfolio">Unsere Teams</a> -->
+                <a
+                  id="dLabel"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                  class="nav-link dropdown-toggle"
+                  href
+                  role="button"
+                  >Verein</a
+                >
+
+                <div class="dropdown-menu" aria-labelledby="dLabel">
+                  <a
+                    class="dropdown-item js-scroll-trigger"
+                    href="../index.html#about"
+                    >Über uns</a
+                  >
+                  <a href="./vorstand.html" class="dropdown-item">Vorstand</a>
+                  <a href="http://tanzschule-allround.de" class="dropdown-item"
+                    >Räumlichkeiten</a
+                  >
+                  <a
+                    href="../index.html#footer"
+                    class="dropdown-item js-scroll-trigger"
+                    >Sponsoren</a
+                  >
                 </div>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ml-auto my-2 my-lg-0">
-                    <li class="nav-item">
-                        <div class="dropdown show">
-                            <!-- <a class="nav-link js-scroll-trigger" href="#portfolio">Unsere Teams</a> -->
-                            <a id="dLabel" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
-                                class="nav-link dropdown-toggle" href role="button">Verein</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <div class="dropdown show">
+                <!-- <a class="nav-link js-scroll-trigger" href="#portfolio">Unsere Teams</a> -->
+                <a
+                  id="dLabel"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  >Unsere Teams</a
+                >
 
-                            <div class="dropdown-menu" aria-labelledby="dLabel">
-                                <a class="dropdown-item js-scroll-trigger" href="../index.html#about">Über uns</a>
-                                <a href="./vorstand.html" class="dropdown-item">Vorstand</a>
-                                <a href="http://tanzschule-allround.de" class="dropdown-item">Räumlichkeiten</a>
-                                <a href="../index.html#footer" class="dropdown-item js-scroll-trigger">Sponsoren</a>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="nav-item">
-                        <div class="dropdown show">
-                            <!-- <a class="nav-link js-scroll-trigger" href="#portfolio">Unsere Teams</a> -->
-                            <a id="dLabel" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
-                                class="nav-link dropdown-toggle" href="#" role="button">Unsere Teams</a>
-
-
-                            <div class="dropdown-menu" aria-labelledby="dLabel">
-                                <a href="https://allrounddancekader.de" class="dropdown-item">Allround Dance Kader</a>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="nav-item">
-                        <!-- <a class="nav-link js-scroll-trigger" href="#portfolio">Unsere Teams</a> -->
-                        <a id="dLabel" class="nav-link" href="./kurse.html" role="button">Unsere Kurse</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="../index.html#shows">Showanfrage senden</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="./mitgliederinfo.html">Mitgliederinfo</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="../index.html#contact">Kontakt</a>
-                    </li>
-                </ul>
-            </div>
+                <div class="dropdown-menu" aria-labelledby="dLabel">
+                  <a href="https://allrounddancekader.de" class="dropdown-item"
+                    >Allround Dance Kader</a
+                  >
+                </div>
+              </div>
+            </li>
+            <li class="nav-item">
+              <!-- <a class="nav-link js-scroll-trigger" href="#portfolio">Unsere Teams</a> -->
+              <a id="dLabel" class="nav-link" href="./kurse.html" role="button"
+                >Unsere Kurse</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="../index.html#shows"
+                >Showanfrage senden</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="./mitgliederinfo.html"
+                >Mitgliederinfo</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="../index.html#contact"
+                >Kontakt</a
+              >
+            </li>
+          </ul>
         </div>
+      </div>
     </nav>
 
     <header>
-        <div class="vorstand">
-            <!-- Showdance -->
-            <div class="col-12 col-md-6">
-                <div class="card">
-                    <h5 class="card-title">Showdance Kader-Training</h5>
-                    <p class="card-text"><small class="text-muted">Trainerin: Theresa-Marie Wenzel</small></p>
-                    <div class="info">
-                        <div class="card-portrait">
-                            <img src="../img/vorstand/Theresa-Marie_Wenzel-portrait-min.jpg"
-                                alt="Bild von Theresa-Marie Wenzel" class="card-img-lft">
-                        </div>
-                        <div class="card-body">
-                            <p class="card-text">Das Training unserer Showdance Formation "Allround Dance Kader" findet
-                                immer Donnerstags von 18.00-19.00 Uhr statt und wird von Theresa Marie Wenzel geleitet.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="contact">
-                        <div class="card-text">Wann? Donnerstags, 18.00-19.00 Uhr</div>
-                        <div class="card-text">Wo? <a class="" href="https://goo.gl/maps/jBn7PhFhVAsvQx5L9">Tanzschule
-                                Allround, Dallgow-Döberitz</a></div>
-                    </div>
-                </div>
+      <div class="vorstand">
+        <!-- Showdance -->
+        <div class="col-12 col-md-6">
+          <div class="card">
+            <h5 class="card-title">Showdance Kader-Training</h5>
+            <p class="card-text">
+              <small class="text-muted">Trainerin: Theresa-Marie Wenzel</small>
+            </p>
+            <div class="info">
+              <div class="card-portrait">
+                <img
+                  src="../img/vorstand/Theresa-Marie_Wenzel-portrait-min.jpg"
+                  alt="Bild von Theresa-Marie Wenzel"
+                  class="card-img-lft"
+                />
+              </div>
+              <div class="card-body">
+                <p class="card-text">
+                  Das Training unserer Showdance Formation "Allround Dance
+                  Kader" findet immer Donnerstags von 18.00-19.00 Uhr statt und
+                  wird von Theresa Marie Wenzel geleitet.
+                </p>
+              </div>
             </div>
-            <!-- Standard Technik-Training -->
-            <div class="col-12 col-md-6">
-                <div class="card">
-                    <h5 class="card-title">Standard Gruppentraining</h5>
-                    <p class="card-text"><small class="text-muted">Trainer:in: N.N.</small></p>
-                    <!-- <div class="info">
-                        <div class="card-portrait">
-                            <img src="../img/maj-min.jpeg" alt="Bild von Melanie Ahl-Jende" class="card-img-lft">
-                        </div>
-                        <div class="card-body">
-                            <p class="card-text">Das Standard Gruppentraining findet jeden Dienstag von 18.30 bis 20.00
-                                Uhr statt und wird von Melanie Ahl-Jende geleitet. Jeder erste Dienstag im Monat ist für
-                                Hobbygruppentänzer der Tanzschule Allround inklusive.</p>
-                        </div>
-                    </div> -->
-                    <div class="contact">
-                        <div class="card-text">Wann? Dienstags, 18.30-20.00 Uhr</div>
-                        <div class="card-text">Wo? <a class=""
-                                href="https://goo.gl/maps/jBn7PhFhVAsvQx5L9">Tanzschule Allround, Dallgow-Döberitz</a>
-                        </div>
-                    </div>
-                </div>
+            <div class="contact">
+              <div class="card-text">Wann? Donnerstags, 18.00-19.00 Uhr</div>
+              <div class="card-text">
+                Wo?
+                <a class="" href="https://goo.gl/maps/jBn7PhFhVAsvQx5L9"
+                  >Tanzschule Allround, Dallgow-Döberitz</a
+                >
+              </div>
             </div>
-            <!-- Cheerdance -->
-            <div class="col-12 col-md-6">
-                <div class="card">
-                    <h5 class="card-title">Cheerdance</h5>
-                    <p class="card-text"><small class="text-muted">Trainerin: Leonie Ball</small></p>
-                    <div class="info">
-                        <div class="card-portrait">
-                            <img src="../img/Leonie_Ball-min.jpg" alt="Bild von Leonie Ball" class="card-img-lft">
-                        </div>
-                        <div class="card-body">
-                            <p class="card-text">Das Cheerdance Training findet jeden Dienstag von 17:00 bis 18:00 Uhr statt und wird von Leonie Ball geleitet.
-                                Cheerdance ist eine Mischung aus Tanz , Cheerleading, Akrobatik und Ballett.
-                                Mädchen und Jungs ab 8 Jahren (keine Altershöchstgrenze) sind herzlich willkommen.
-                                Eine Probestunde kostet 5€ pro Person und wird direkt bei der Trainerin entrichtet.</p>
-                        </div>
-                    </div>
-                    <div class="contact">
-                        <div class="card-text">Wann? Dienstags, 17.15-18.15 Uhr</div>
-                        <div class="card-text">Wo? <a class=""
-                                href="https://goo.gl/maps/jBn7PhFhVAsvQx5L9">Tanzschule Allround, Dallgow-Döberitz</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+          </div>
         </div>
+        <!-- Cheerdance -->
+        <div class="col-12 col-md-6">
+          <div class="card">
+            <h5 class="card-title">Cheerdance</h5>
+            <p class="card-text">
+              <small class="text-muted">Trainerin: Leonie Ball</small>
+            </p>
+            <div class="info">
+              <div class="card-portrait">
+                <img
+                  src="../img/Leonie_Ball-min.jpg"
+                  alt="Bild von Leonie Ball"
+                  class="card-img-lft"
+                />
+              </div>
+              <div class="card-body">
+                <p class="card-text">
+                  Das Cheerdance Training findet jeden Dienstag statt und wird
+                  von Leonie Ball geleitet. Es gibt einen Anfänger- und einen
+                  Fortgeschrittenenkurs.
+                </p>
+                <p>
+                  Cheerdance ist eine Mischung aus Tanz , Cheerleading,
+                  Akrobatik und Ballett. Mädchen und Jungs ab 8 Jahren (keine
+                  Altershöchstgrenze) sind herzlich willkommen.
+                </p>
+              </div>
+            </div>
+            <div class="contact">
+              <div class="card-text">
+                Wann?
+                <ul>
+                  <li>Anfänger von 16-17 Uhr</li>
+                  <li>Fortgeschrittene von 17-18 Uhr</li>
+                </ul>
+              </div>
+              <div class="card-text">
+                Wo?
+                <a class="" href="https://goo.gl/maps/jBn7PhFhVAsvQx5L9"
+                  >Tanzschule Allround, Dallgow-Döberitz</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </header>
 
     <!-- Footer -->
     <footer class="bg-light py-5">
-        <div class="container">
-            <a class="text-center" href="./datenschutz.html">Datenschutzerklärung</a>
-            <div class="small text-center text-muted">Copyright &copy; 2019 - Start Bootstrap</div>
+      <div class="container">
+        <a class="text-center" href="./datenschutz.html"
+          >Datenschutzerklärung</a
+        >
+        <div class="small text-center text-muted">
+          Copyright &copy; 2019 - Start Bootstrap
         </div>
+      </div>
     </footer>
 
     <!-- Bootstrap core JavaScript -->
@@ -186,6 +263,5 @@
     <!-- Custom scripts for this template -->
     <script src="../js/dateien.js"></script>
     <script src="../js/banner.js"></script>
-</body>
-
+  </body>
 </html>
